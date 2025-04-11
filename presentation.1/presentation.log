@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.11)  11 APR 2025 10:34
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.4.11)  11 APR 2025 21:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**course_work.tex
-(./course_work.tex
+**presentation.tex
+(./presentation.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/beamer/beamer.cls
@@ -921,45 +921,255 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count381
 \c@blind@pangrammax=\count382
 )
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen301
+\captionmargin=\dimen302
+\caption@leftmargin=\dimen303
+\caption@rightmargin=\dimen304
+\caption@width=\dimen305
+\caption@indent=\dimen306
+\caption@parindent=\dimen307
+\caption@hangindent=\dimen308
+Package caption Info: beamer document class detected.
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/caption/caption-beamer.sto
+File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to th
+e beamer document classes (AR)
+))
+\c@caption@flags=\count383
+\c@continuedfloat=\count384
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+Package caption Info: wrapfig package is loaded.
+)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 42.
+(hyperref)                removing `\\' on input line 44.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 42.
+(hyperref)                removing `\new@ifnextchar' on input line 44.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\smallskipamount' on input line 42.
+(hyperref)                removing `\smallskipamount' on input line 44.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 42.
+(hyperref)                removing `\begingroup' on input line 44.
 
-(./course_work.aux)
-\openout1 = `course_work.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\active' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\active' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\%' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\active' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\#' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\&' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textunderscore' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\_' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\catcode' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\active' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\~' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\textasciitilde' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<let>-command' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\csname\endcsname' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Hy@tempa' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\<def>-command' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\Hy@tempa' on input line 44.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\\' on input line 44.
+
+(./presentation.aux
+
+LaTeX Warning: Label `fig:image1' multiply defined.
+
+)
+\openout1 = `presentation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -995,65 +1205,65 @@ LaTeX Font Info:    ... okay on input line 46.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 46.
-(./course_work.out) (./course_work.out)
+Package hyperref Info: Link coloring ON on input line 48.
+(./presentation.out) (./presentation.out)
 \@outlinefile=\write5
-\openout5 = `course_work.out'.
+\openout5 = `presentation.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 46.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 48.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 46.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 48.
 \symnumbers=\mathgroup12
 \sympureletters=\mathgroup13
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  TU/HSESans(1)/m/n --> TU/lmr/m/n on input line 46.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 46.
+(Font)                  TU/HSESans(1)/m/n --> TU/lmr/m/n on input line 48.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  TU/HSESans(1)/bx/n --> TU/HSESans(0)/b/n on input line 
-46.
+48.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  TU/HSESans(1)/bx/n --> TU/HSESans(0)/b/n on input line 
-46.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 46.
+48.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/HSESans(0)/m/n on input line 46.
+(Font)                  OT1/cmss/m/n --> TU/HSESans(0)/m/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/HSESans(0)/m/n on input line 46.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 46.
+(Font)                  OT1/cmss/bx/n --> TU/HSESans(0)/m/n on input line 48.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  TU/HSESans(1)/m/it --> TU/HSESans(0)/m/it on input line
- 46.
+ 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/HSESans(1)/bx/it --> TU/HSESans(0)/m/it on input lin
-e 46.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 46.
+e 48.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/m/n on input line 46.
+(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/m/n on input line 48.
 
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/m/n on input line 46.
+(Font)                  OT1/cmtt/m/n --> TU/CourierNew(0)/m/n on input line 48.
 
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
 (Font)                  TU/HSESans(0)/m/n --> TU/HSESans(0)/b/n on input line 4
-6.
+8.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  TU/HSESans(0)/m/it --> TU/HSESans(0)/b/it on input line
- 46.
+ 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  TU/HSESans(1)/bx/n --> TU/lmr/b/n on input line 46.
+(Font)                  TU/HSESans(1)/bx/n --> TU/lmr/b/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
 (Font)                  TU/HSESans(0)/b/n --> TU/HSESans(0)/b/n on input line 4
-6.
+8.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  TU/HSESans(0)/m/n --> TU/HSESans(0)/b/n on input line 4
-6.
+8.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/HSESans(0)/m/it --> TU/HSESans(0)/b/it on input line
- 46.
+ 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/CourierNew(0)/m/n --> TU/CourierNew(0)/b/n on input 
-line 46.
+line 48.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/translator/translator-basic-dicti
 onary-English.dict
@@ -1079,16 +1289,18 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \th on input line 46.
- (./course_work.nav)
-Overfull \hbox (1.5pt too wide) in paragraph at lines 46--46
+LaTeX Info: Redefining \th on input line 48.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ (./presentation.nav)
+Overfull \hbox (1.5pt too wide) in paragraph at lines 48--48
 [][]  
  []
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
 <use HSE-theme/01_Znak_CMYK.pdf>
 
-Overfull \hbox (1.5pt too wide) in paragraph at lines 48--48
+Overfull \hbox (1.5pt too wide) in paragraph at lines 50--50
 [][]  
  []
 
@@ -1096,12 +1308,12 @@ File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
 <use HSE-theme/01_Znak_CMYK.pdf>
 File: HSE-theme/01_Logo_HSE_full_rus_CMYK.pdf Graphic file (type pdf)
 <use HSE-theme/01_Logo_HSE_full_rus_CMYK.pdf>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
 
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1111,7 +1323,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 57--57
+Overfull \hbox (1.5pt too wide) in paragraph at lines 59--59
 [][]  
  []
 
@@ -1129,7 +1341,7 @@ Overfull \hbox (1.5pt too wide) has occurred while \output is active
 [2
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 62--62
+Overfull \hbox (1.5pt too wide) in paragraph at lines 68--68
 [][]  
  []
 
@@ -1147,7 +1359,7 @@ Overfull \hbox (1.5pt too wide) has occurred while \output is active
 [3
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 71--71
+Overfull \hbox (1.5pt too wide) in paragraph at lines 77--77
 [][]  
  []
 
@@ -1165,7 +1377,7 @@ Overfull \hbox (1.5pt too wide) has occurred while \output is active
 [4
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 85--85
+Overfull \hbox (1.5pt too wide) in paragraph at lines 86--86
 [][]  
  []
 
@@ -1183,12 +1395,14 @@ Overfull \hbox (1.5pt too wide) has occurred while \output is active
 [5
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 103--103
+Overfull \hbox (1.5pt too wide) in paragraph at lines 101--101
 [][]  
  []
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
 <use HSE-theme/01_Znak_CMYK.pdf>
+Missing character: There is no 𝑚 (U+1D45A) in font HSE Sans Regular/OT:script=l
+atn;language=dflt;mapping=tex-text;!
 
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
@@ -1201,16 +1415,12 @@ Overfull \hbox (1.5pt too wide) has occurred while \output is active
 [6
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 109--109
+Overfull \hbox (1.5pt too wide) in paragraph at lines 119--119
 [][]  
  []
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
 <use HSE-theme/01_Znak_CMYK.pdf>
-
-Package blindtext Warning: russian not defined, using English instead.
-(blindtext)                 on input line 109.
-
 
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
@@ -1223,16 +1433,14 @@ Overfull \hbox (1.5pt too wide) has occurred while \output is active
 [7
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 115--115
+Overfull \hbox (1.5pt too wide) in paragraph at lines 132--132
 [][]  
  []
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
 <use HSE-theme/01_Znak_CMYK.pdf>
-
-Package blindtext Warning: russian not defined, using English instead.
-(blindtext)                 on input line 115.
-
+File: images/image2.jpg Graphic file (type bmp)
+<images/image2.jpg>
 
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
@@ -1245,16 +1453,12 @@ Overfull \hbox (1.5pt too wide) has occurred while \output is active
 [8
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 121--121
+Overfull \hbox (1.5pt too wide) in paragraph at lines 149--149
 [][]  
  []
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
 <use HSE-theme/01_Znak_CMYK.pdf>
-
-Package blindtext Warning: russian not defined, using English instead.
-(blindtext)                 on input line 121.
-
 
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
@@ -1267,16 +1471,12 @@ Overfull \hbox (1.5pt too wide) has occurred while \output is active
 [9
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 127--127
+Overfull \hbox (1.5pt too wide) in paragraph at lines 157--157
 [][]  
  []
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
 <use HSE-theme/01_Znak_CMYK.pdf>
-
-Package blindtext Warning: russian not defined, using English instead.
-(blindtext)                 on input line 127.
-
 
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
@@ -1289,16 +1489,14 @@ Overfull \hbox (1.5pt too wide) has occurred while \output is active
 [10
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 133--133
+Overfull \hbox (1.5pt too wide) in paragraph at lines 175--175
 [][]  
  []
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
 <use HSE-theme/01_Znak_CMYK.pdf>
-
-Package blindtext Warning: russian not defined, using English instead.
-(blindtext)                 on input line 133.
-
+File: images/image3.png Graphic file (type bmp)
+<images/image3.png>
 
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
@@ -1311,15 +1509,17 @@ Overfull \hbox (1.5pt too wide) has occurred while \output is active
 [11
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 139--139
+Overfull \hbox (1.5pt too wide) in paragraph at lines 188--188
 [][]  
  []
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
 <use HSE-theme/01_Znak_CMYK.pdf>
+File: images/image4.png Graphic file (type bmp)
+<images/image4.png>
 
-Package blindtext Warning: russian not defined, using English instead.
-(blindtext)                 on input line 139.
+Overfull \vbox (2.03076pt too high) detected at line 188
+ []
 
 
 
@@ -1333,15 +1533,17 @@ Overfull \hbox (1.5pt too wide) has occurred while \output is active
 [12
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 145--145
+Overfull \hbox (1.5pt too wide) in paragraph at lines 201--201
 [][]  
  []
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
 <use HSE-theme/01_Znak_CMYK.pdf>
+File: images/image5.png Graphic file (type bmp)
+<images/image5.png>
 
-Package blindtext Warning: russian not defined, using English instead.
-(blindtext)                 on input line 145.
+Overfull \vbox (2.03076pt too high) detected at line 201
+ []
 
 
 
@@ -1355,16 +1557,12 @@ Overfull \hbox (1.5pt too wide) has occurred while \output is active
 [13
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 151--151
+Overfull \hbox (1.5pt too wide) in paragraph at lines 209--209
 [][]  
  []
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
 <use HSE-theme/01_Znak_CMYK.pdf>
-
-Package blindtext Warning: russian not defined, using English instead.
-(blindtext)                 on input line 151.
-
 
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
@@ -1377,16 +1575,12 @@ Overfull \hbox (1.5pt too wide) has occurred while \output is active
 [14
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 157--157
+Overfull \hbox (1.5pt too wide) in paragraph at lines 225--225
 [][]  
  []
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
 <use HSE-theme/01_Znak_CMYK.pdf>
-
-Package blindtext Warning: russian not defined, using English instead.
-(blindtext)                 on input line 157.
-
 
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
@@ -1399,7 +1593,7 @@ Overfull \hbox (1.5pt too wide) has occurred while \output is active
 [15
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 174--174
+Overfull \hbox (1.5pt too wide) in paragraph at lines 230--230
 [][]  
  []
 
@@ -1417,12 +1611,31 @@ Overfull \hbox (1.5pt too wide) has occurred while \output is active
 [16
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 191--191
+Overfull \hbox (1.5pt too wide) in paragraph at lines 236--236
 [][]  
  []
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
 <use HSE-theme/01_Znak_CMYK.pdf>
+(./presentation.bbl
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+File: beamericonarticle.pdf Graphic file (type pdf)
+<use beamericonarticle.pdf>
+)
+Overfull \vbox (51.10081pt too high) detected at line 236
+ []
+
 
 
 File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
@@ -1435,7 +1648,7 @@ Overfull \hbox (1.5pt too wide) has occurred while \output is active
 [17
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 223--223
+Overfull \hbox (1.5pt too wide) in paragraph at lines 241--241
 [][]  
  []
 
@@ -1453,86 +1666,34 @@ Overfull \hbox (1.5pt too wide) has occurred while \output is active
 [18
 
 ]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 234--234
-[][]  
- []
-
-File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
-<use HSE-theme/01_Znak_CMYK.pdf>
-File: images/image1.jpg Graphic file (type bmp)
-<images/image1.jpg>
-
-
-File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
-<use HSE-theme/01_Znak_CMYK.pdf>
-
-Overfull \hbox (1.5pt too wide) has occurred while \output is active
-[][] 
- []
-
-[19
-
-]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 249--249
-[][]  
- []
-
-File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
-<use HSE-theme/01_Znak_CMYK.pdf>
-
-
-File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
-<use HSE-theme/01_Znak_CMYK.pdf>
-
-Overfull \hbox (1.5pt too wide) has occurred while \output is active
-[][] 
- []
-
-[20
-
-]
-Overfull \hbox (1.5pt too wide) in paragraph at lines 253--253
-[][]  
- []
-
-File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
-<use HSE-theme/01_Znak_CMYK.pdf>
-
-
-File: HSE-theme/01_Znak_CMYK.pdf Graphic file (type pdf)
-<use HSE-theme/01_Znak_CMYK.pdf>
-
-Overfull \hbox (1.5pt too wide) has occurred while \output is active
-[][] 
- []
-
-[21
-
-]
 \tf@nav=\write6
-\openout6 = `course_work.nav'.
+\openout6 = `presentation.nav'.
 
 \tf@toc=\write7
-\openout7 = `course_work.toc'.
+\openout7 = `presentation.toc'.
 
 \tf@snm=\write8
-\openout8 = `course_work.snm'.
+\openout8 = `presentation.snm'.
 
- (./course_work.aux)
+ (./presentation.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `course_work.out' has not changed.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25885 strings out of 473832
- 541612 string characters out of 5729481
- 968632 words of memory out of 5000000
- 48391 multiletter control sequences out of 15000+600000
- 566846 words of font info for 115 fonts, out of 8000000 for 9000
+ 27273 strings out of 473832
+ 568229 string characters out of 5729481
+ 996229 words of memory out of 5000000
+ 49766 multiletter control sequences out of 15000+600000
+ 566699 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 128i,15n,123p,443b,752s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,15n,123p,725b,991s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on course_work.pdf (21 pages).
+Output written on presentation.pdf (18 pages).

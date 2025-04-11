@@ -1,0 +1,33 @@
+\begin{thebibliography}{1}
+
+\bibitem{gromov_spot_2024}
+V.~A. Gromov and A.~S. Kogan, ``Spot the bot: {Coarse}-{Grained} {Partition} of
+  {Semantic} {Paths} for {Bots} and {Humans},'' Feb. 2024.
+\newblock arXiv:2402.17392 [cs].
+
+\bibitem{gromov_semantic_2023}
+V.~A. Gromov and Q.~N. Dang, ``Semantic and sentiment trajectories of literary
+  masterpieces,'' {\em Chaos, Solitons \& Fractals}, vol.~175, p.~113934, Oct.
+  2023.
+
+\bibitem{rosso_distinguishing_2007}
+O.~A. Rosso, H.~A. Larrondo, M.~T. Martin, A.~Plastino, and M.~A. Fuentes,
+  ``Distinguishing {Noise} from {Chaos},'' {\em Physical Review Letters},
+  vol.~99, p.~154102, Oct. 2007.
+
+\bibitem{rand_detecting_takkens_1981}
+F.~Takens, ``Detecting strange attractors in turbulence,'' in {\em Dynamical
+  {Systems} and {Turbulence}, {Warwick} 1980} (D.~Rand and L.-S. Young, eds.),
+  vol.~898, pp.~366--381, Berlin, Heidelberg: Springer Berlin Heidelberg, 1981.
+\newblock Series Title: Lecture Notes in Mathematics.
+
+\bibitem{wishart_numerical_1969}
+D.~Wishart, ``Numerical {Classification} {Method} for deriving {Natural}
+  {Classes},'' {\em Nature}, vol.~221, pp.~97--98, Jan. 1969.
+
+\bibitem{kostenetskiy_hpc_2021}
+P.~S. Kostenetskiy, R.~A. Chulkevich, and V.~I. Kozyrev, ``{HPC} {Resources} of
+  the {Higher} {School} of {Economics},'' {\em Journal of Physics: Conference
+  Series}, vol.~1740, p.~012050, Jan. 2021.
+
+\end{thebibliography}
