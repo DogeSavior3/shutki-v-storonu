@@ -1,0 +1,256 @@
+%!TEX TS-program = xelatex
+
+% Официальный шаблон презентации НИУ ВШЭ в beamer (LaTeX)
+% Версия 2.0
+% Язык — русский   
+% Автор шаблона - Данил Фёдоровых (fedorovykh@gmail.com)
+
+%%% Для корректной работы шаблона необходима 
+%%% установка в систему бесплатного шрифта HSE Sans
+%%% https://www.hse.ru/info/brandbook/#font
+
+
+\documentclass[aspectratio=169]{beamer}
+
+\newbool{russian}
+\booltrue{russian}  % Загружает русскоязычный логотип ВШЭ
+\usepackage{HSE-theme/beamerthemeHSE} % Подгружаем тему
+
+%%% Работа с русским языком и шрифтами
+\usepackage[english,russian]{babel}   % загружает пакет многоязыковой вёрстки
+\usepackage[no-math]{fontspec}      % подготавливает загрузку шрифтов Open Type, True Type и др.
+	\setsansfont{HSE Sans} 
+	\setmonofont{Courier New}
+\usepackage{mathspec}
+	\setmathsfont(Digits,Latin,Greek)[Numbers={Lining,Proportional}]{HSE Sans}
+	\setmathrm[Numbers={Lining,Proportional}]{HSE Sans}
+\uselanguage{russian}
+\languagepath{russian}
+\deftranslation[to=russian]{Theorem}{Теорема}
+\deftranslation[to=russian]{Definition}{Определение}
+\deftranslation[to=russian]{Definitions}{Определения}
+\deftranslation[to=russian]{Corollary}{Следствие}
+\deftranslation[to=russian]{Fact}{Факт}
+\deftranslation[to=russian]{Example}{Пример}
+\deftranslation[to=russian]{Examples}{Примеры}
+
+\usepackage{blindtext} 		% Случайный текст
+\graphicspath{{images/}}  	% Папка с картинками
+
+%%% Информация об авторе и выступлении
+\title[Заголовок]{Шутки в сторону: машинное обучение и интерпретируемый искусственный интеллект в задачах генерации юмористических текстов} 
+\author[Имя автора]{Король Михаил БПМИ2310 \\ \smallskip \scriptsize mkorol@hse.ru\\{Научный руководитель: д.ф.-м.н. профессор Громов В.А.}}
+\institute{Факультет компьютерных наук}
+\date{22 апреля 2025 г.}
+
+\begin{document}	% Начало презентации
+
+\frame[plain]{\titlepage}	% Титульный слайд
+
+\begin{frame}
+\frametitle{Введение}
+\framesubtitle{Актуальность, цель и гипотеза}
+	В данный момент ИИ не умеет генерировать юмор. Точнее, из множества сгенерированных шуток, довольно низкий процент окажется действительно смешным. Несмотря на больше количество работ, посвященных юмору, он остается одним из самых сложных явлений для понимания и формализации с точки зрения науки. \\
+	Цель: найти качественные различия между обычными и юмористическими текстами для создания методов их автоматической классификации.\\
+	Гипотеза: существуют фундаментальные различия в структуре языка, используемого в юмористических и литературных текстах, которые могут быть выявлены и количественно описаны с помощью методов теории хаоса и топологического анализа.
+	
+\end{frame}
+
+\begin{frame}
+\frametitle{Литературный обзор}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Методология}
+\framesubtitle{Плоскость Энтропия-Сложность}
+
+Мартин, Пластино и Россо (MPR) предлагают подход, позволяющий отличить хаотический ряд от ряда, генерируемого простой детерминированной системой, и от ряда, генерируемого случайным образом. Чтобы использовать такой метод, нужно как-то представить наши текста в виде временного ряда. Собран корпус анекдотов и корпус литературы. Произведена базовая обработка корпусов, которая включает в себя очистку данных и лемматизацию. \\
+Далее с помощью словаря эмбедингов получаем ряд векторов. 
+	
+\end{frame}
+
+\begin{frame}
+\frametitle{Методология}
+\framesubtitle{Плоскость Энтропия-Сложность}
+	Рассмотрим наблюдаемую часть временного ряда $ y_0, y_1, \dots, y_t, \dots $ и разобьем его на отрезки длины $k$. В теории их называют z-вектора.
+	$$ 
+	z_0 = (y_0, y_1, \dots, y_{k-1}) 
+	$$
+	$$
+	z_1 = (y_1, y_2, \dots, y_{k}) 
+	$$
+	И так далее. Суть метода заключается в вычислении двух величин, основываясь на полученных вероятностях, характеризующих исходный временной ряд.
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Методология}
+\framesubtitle{Плоскость Энтропия-Сложность}
+	Первая величина -- это привычная нам энтропия, но нормированная на ее максимальное значение ($log \text{ } m$)
+	
+	$$
+	0 \leq H \leq 1 
+	$$
+	
+	Вторая характеристика носит название сложности, а если быть точным, MPR-сложности (которая названа по первым буквам фамилий ее авторов).
+
+	$$ 
+	C_{\text{MPR}} = Q_0 \cdot H \cdot \|P - P_e\| 
+	$$
+	
+	где $P_e - $ равномерное распределение, то есть: $P_e = \{p_j = 1/N\}$, $H - $ энтропия, $Q_0 - $ нормализирующая константа, которая гарантирует, что $0 \leq C_{\text{MPR}} \leq 1$, $\|P - P_e\|$ показывает, насколько уклоняется актуальное распределение от распределения равномерного.
+\end{frame}
+
+\begin{frame}
+\frametitle{Просто слайд с текстом}
+\framesubtitle{Подзаголовок слайда}
+	Благодаря этим двум характеристикам получается следующая картина:
+\end{frame}
+
+\begin{frame}
+\frametitle{Просто слайд с текстом}
+\framesubtitle{Подзаголовок слайда}
+	\blindtext
+\end{frame}
+
+\begin{frame}
+\frametitle{Просто слайд с текстом}
+\framesubtitle{Подзаголовок слайда}
+	\blindtext
+\end{frame}
+
+\begin{frame}
+\frametitle{Просто слайд с текстом}
+\framesubtitle{Подзаголовок слайда}
+	\blindtext
+\end{frame}
+
+\begin{frame}
+\frametitle{Просто слайд с текстом}
+\framesubtitle{Подзаголовок слайда}
+	\blindtext
+\end{frame}
+
+\begin{frame}
+\frametitle{Просто слайд с текстом}
+\framesubtitle{Подзаголовок слайда}
+	\blindtext
+\end{frame}
+
+\begin{frame}
+\frametitle{Просто слайд с текстом}
+\framesubtitle{Подзаголовок слайда}
+	\blindtext
+\end{frame}
+
+\begin{frame}
+\frametitle{Просто слайд с текстом}
+\framesubtitle{Подзаголовок слайда}
+	\blindtext
+\end{frame}
+
+\begin{frame}
+\frametitle{Просто слайд с текстом}
+\framesubtitle{Подзаголовок слайда}
+	\blindtext
+\end{frame}
+
+\begin{frame}
+\frametitle{Список}
+\framesubtitle{Нумерованный список}
+	\begin{enumerate} 
+		\item Первый пункт:
+		\begin{itemize}
+			\item подпункт 1;
+			\item подпункт 2.
+		\end{itemize}
+		\item Второй пункт
+		\begin{enumerate}
+			\item нумерованный подпункт.
+		\end{enumerate} 
+		\item Третий пункт
+	\end{enumerate} 
+\end{frame}
+
+\begin{frame}
+\frametitle{Список}
+\framesubtitle{Маркированный список}
+	\begin{itemize}
+		\item Первый пункт:
+		\begin{itemize}
+			\item подпункт 1;
+			\item подпункт 2.
+		\end{itemize}
+		\item Второй пункт
+		\begin{enumerate}
+			\item нумерованный подпункт.
+		\end{enumerate}
+		\item Третий пункт
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Слайд с двумя колонками текста}
+	 \begin{columns}
+	 \column{0.5\textwidth}
+		\begin{enumerate} 
+		\item Первый пункт:
+		\begin{itemize}
+			\item подпункт 1;
+			\item подпункт 2.
+		\end{itemize}
+		\item Второй пункт
+		\begin{enumerate}
+			\item нумерованный подпункт.
+		\end{enumerate} 
+		\item Третий пункт
+	\end{enumerate} 
+	\column{0.5\textwidth}
+	\begin{itemize}
+		\item Первый пункт:
+		\begin{itemize}
+			\item подпункт 1;
+			\item подпункт 2.
+		\end{itemize}
+		\item Второй пункт
+		\begin{enumerate}
+			\item нумерованный подпункт.
+		\end{enumerate}
+		\item Третий пункт
+	\end{itemize}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Слайд с картинкой}
+\medskip
+	 \begin{columns}
+	 \column{0.5\textwidth}
+		Текст рядом с картинкой
+		\column{0.5\textwidth}
+		\includegraphics[width=\columnwidth]{image1}
+	\end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Блоки}
+	\begin{theorem}[Пифагора]
+		Если $a$ и $b$ "--- длины катетов прямоугольного треугольника, а~$c$ "--- длина гипотенузы, то $a^2+b^2=c^2$.
+	\end{theorem}
+
+	\begin{alertblock}{Блок с красным заголовком}
+		Содержимое.
+	\end{alertblock}
+
+	\begin{exampleblock}{Блок с зеленым заголовком}
+		Содержимое.
+	\end{exampleblock}
+\end{frame}
+
+\begin{frame}
+\frametitle{Просто слайд с текстом}
+\end{frame}
+
+
+\end{document}
