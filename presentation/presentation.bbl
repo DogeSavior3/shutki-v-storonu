@@ -1,0 +1,33 @@
+\begin{thebibliography}{}
+
+\bibitem[Gromov and Dang, 2023]{gromov_semantic_2023}
+Gromov, V.~A. and Dang, Q.~N. (2023).
+\newblock Semantic and sentiment trajectories of literary masterpieces.
+\newblock {\em Chaos, Solitons \& Fractals}, 175:113934.
+
+\bibitem[Gromov and Kogan, 2024]{gromov_spot_2024}
+Gromov, V.~A. and Kogan, A.~S. (2024).
+\newblock Spot the bot: {Coarse}-{Grained} {Partition} of {Semantic} {Paths}
+  for {Bots} and {Humans}.
+\newblock arXiv:2402.17392 [cs].
+
+\bibitem[Rosso et~al., 2007]{rosso_distinguishing_2007}
+Rosso, O.~A., Larrondo, H.~A., Martin, M.~T., Plastino, A., and Fuentes, M.~A.
+  (2007).
+\newblock Distinguishing {Noise} from {Chaos}.
+\newblock {\em Physical Review Letters}, 99(15):154102.
+
+\bibitem[Takens, 1981]{rand_detecting_takkens_1981}
+Takens, F. (1981).
+\newblock Detecting strange attractors in turbulence.
+\newblock In Rand, D. and Young, L.-S., editors, {\em Dynamical {Systems} and
+  {Turbulence}, {Warwick} 1980}, volume 898, pages 366--381. Springer Berlin
+  Heidelberg, Berlin, Heidelberg.
+\newblock Series Title: Lecture Notes in Mathematics.
+
+\bibitem[Wishart, 1969]{wishart_numerical_1969}
+Wishart, D. (1969).
+\newblock Numerical {Classification} {Method} for deriving {Natural} {Classes}.
+\newblock {\em Nature}, 221(5175):97--98.
+
+\end{thebibliography}
