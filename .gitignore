@@ -1,2 +1,17 @@
+# Python caches
 .DS_Store
 __pycache__
+.ipynb_checkpoints
+
+# TeX caches
+
+*.aux
+*.bbl
+*.blg
+*.log
+*.nav
+*.out
+*.snm
+*.synctex*
+*.toc
+
